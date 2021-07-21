@@ -24,3 +24,7 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# Funktor related stuff
+.serverless
+node_modules

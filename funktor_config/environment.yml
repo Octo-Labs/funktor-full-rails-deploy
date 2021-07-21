@@ -1,0 +1,7 @@
+FUNKTOR_APP_NAME: funktor-full-rails-deploy
+FUNKTOR_INCOMING_JOB_QUEUE:
+  Ref: IncomingJobQueue
+FUNKTOR_DEFAULT_QUEUE:
+  Ref: DefaultQueue
+FUNKTOR_SINGLE_THREAD_QUEUE:
+  Ref: SingleThreadQueue
