@@ -1,4 +1,5 @@
 use_docker: true
+docker_file: Dockerfile
 docker_yums:
   - postgresql-devel
 native_libs:

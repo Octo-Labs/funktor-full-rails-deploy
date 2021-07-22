@@ -6,3 +6,6 @@ FUNKTOR_DEFAULT_QUEUE:
 FUNKTOR_SINGLE_THREAD_QUEUE:
   Ref: SingleThreadQueue
 BUNDLE_WITHOUT: development:test
+RAILS_ENV: production
+RACK_ENV: production
+RAILS_LOG_TO_STDOUT: true

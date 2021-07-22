@@ -12,7 +12,7 @@ gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
 # TODO - How should we handle this in a real app, where we need it for web processes?
 # A different bundler group? Something else?
-#gem 'sass-rails', '>= 6'
+gem 'sass-rails', '>= 6'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
