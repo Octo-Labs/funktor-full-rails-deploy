@@ -8,9 +8,14 @@ require 'bundler/setup'
 # Set up gems listed in the Gemfile.
 Bundler.require(:default, :production)
 
+require 'active_record'
+
 # Load all ruby files in the app directory
-Dir.glob( File.join('..', 'app', '**', '*.rb'), base: File.dirname(__FILE__) ).each do |ruby_file|
-  puts "require_relative #{ruby_file}"
-  require_relative ruby_file
-end
+require_rel '../app/workers'
+require_rel '../app/models'
+require_rel '../app/helpers'
+#Dir.glob( File.join('..', 'app', '**', '*.rb'), base: File.dirname(__FILE__) ).each do |ruby_file|
+  #puts "require_relative #{ruby_file}"
+  #require_relative ruby_file
+#end
 

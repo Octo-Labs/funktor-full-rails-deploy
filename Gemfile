@@ -10,11 +10,15 @@ gem 'pg', '~> 1.1'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
-gem 'sass-rails', '>= 6'
+# TODO - How should we handle this in a real app, where we need it for web processes?
+# A different bundler group? Something else?
+#gem 'sass-rails', '>= 6'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'funktor'
+
+gem 'require_all'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

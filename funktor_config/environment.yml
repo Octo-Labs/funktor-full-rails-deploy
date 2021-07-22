@@ -5,3 +5,4 @@ FUNKTOR_DEFAULT_QUEUE:
   Ref: DefaultQueue
 FUNKTOR_SINGLE_THREAD_QUEUE:
   Ref: SingleThreadQueue
+BUNDLE_WITHOUT: development:test
