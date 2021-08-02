@@ -1,3 +1,7 @@
+BUNDLE_WITHOUT: development:test
+BUNDLE_PLUGINS: false
+BUNDLE_FROZEN: true
+SERVERLESS_STAGE: ${self:custom.stage}
 FUNKTOR_APP_NAME: funktor-full-rails-deploy
 FUNKTOR_INCOMING_JOB_QUEUE:
   Ref: IncomingJobQueue
@@ -5,7 +9,6 @@ FUNKTOR_DEFAULT_QUEUE:
   Ref: DefaultQueue
 FUNKTOR_SINGLE_THREAD_QUEUE:
   Ref: SingleThreadQueue
-BUNDLE_WITHOUT: development:test
 RAILS_ENV: production
 RACK_ENV: production
 RAILS_LOG_TO_STDOUT: true
